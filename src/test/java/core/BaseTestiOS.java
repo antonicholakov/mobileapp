@@ -1,22 +1,35 @@
 package core;
 
-import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.options.XCUITestOptions;
+import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.junit.jupiter.api.extension.ExtensionContext;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-
+import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class BaseTestiOS {
 
     protected App app;
     private AppiumDriver driver;
+    protected static final Logger LOGGER = LoggerFactory.getLogger(BaseTestiOS.class);
+    protected WebDriverWait wait;
+
+    public AppiumDriver getDriver() {
+        return this.driver;
+    }
 
     @BeforeAll
     public void setup() throws MalformedURLException {
@@ -33,12 +46,11 @@ public class BaseTestiOS {
             // Initialize driver
             driver = new AppiumDriver(new URL("http://127.0.0.1:4723"), options);
 
-            // Add a wait for the app to load
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25)); // Adjust the wait time as needed
-            wait.until(ExpectedConditions.presenceOfElementLocated(AppiumBy.accessibilityId("Login to Continue")));
+            // Add an implicit wait
+            wait = new WebDriverWait(driver, Duration.ofSeconds(15)); // Adjust the wait time as needed
 
             // Initialize app with the driver
-            app = new App(driver);
+            app = new App(driver, wait);
         }
     }
 
