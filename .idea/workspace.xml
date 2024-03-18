@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="sessionNotCreated exception handling and debugging">
+    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="changing the IP of the server connection">
       <change afterPath="$PROJECT_DIR$/allure-results/001d8b40-bfe9-4279-a50d-410e5ab2f67b-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/0045545d-6a0f-49e9-b01b-992da6c85ba0-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/023e7696-0e19-4421-985b-be8ee109d12f-result.json" afterDir="false" />
@@ -17,10 +17,13 @@
       <change afterPath="$PROJECT_DIR$/allure-results/11619bfe-4196-4fd3-ba58-4d110ad64dbb-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/1a559eb6-c8ba-456c-b4b9-351dc3d54feb-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/1b9c1d0f-15f9-4957-aa0b-085ac2bc03c8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1cf65606-e1b4-4609-84bc-05d439c999ff-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/1d5fa420-eb55-4287-bbdb-faf212d50d76-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2ede6795-2d64-476b-a3b3-974632279f03-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/31a2b653-6e84-4414-8dfb-e55cb7413783-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/398c3cc5-2d53-45d6-b760-266349c9386f-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/3cf018e6-5d09-4086-a943-c92513848cf9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5d17c67b-fabc-497d-9a9b-bef997a7ad7c-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/6580726a-5fc8-47af-918f-0893ed0ad093-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/68e1887d-962c-49f0-8329-9bc0f4cbaef8-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/6cfa3f00-838b-463b-b5cd-d1f002c2e74a-container.json" afterDir="false" />
@@ -30,7 +33,9 @@
       <change afterPath="$PROJECT_DIR$/allure-results/7cada1da-0590-4e75-816f-07d8f7c70bc0-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/85093cdb-2e66-40b0-a4f7-a814527f5b29-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/8ae89047-54a6-44f0-8415-64c06fa52fc2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8c87adb1-3b54-4083-96c8-7a2e6f86d69a-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/960d489d-953a-47ed-b5a1-82329d9fb5af-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9a32a351-0a9f-4c67-9125-38a6f31875f6-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/9b3b8256-f87b-49a3-8c56-77ad7d1f582b-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/a146ef3e-c064-4547-9700-3e060875aa5c-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/a2331317-f8e7-4dd9-8ce3-f6923e8b2182-container.json" afterDir="false" />
@@ -40,6 +45,7 @@
       <change afterPath="$PROJECT_DIR$/allure-results/ae085e75-4b5a-4f54-8305-09589a1ffeb7-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/aff5c5a8-5393-4db5-b3fc-f202d3a5ccb2-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/b048908f-c0c4-4b72-8ab0-16148c622220-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b220afde-770b-415e-b22c-55c755aa0381-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/ba324387-80ab-4802-bd12-4c32a5f8dc0f-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/bbd2f295-971f-43d5-84ee-56263985e0db-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/bd665e4d-6eb7-46e1-83cf-b22e86f74fd7-result.json" afterDir="false" />
@@ -48,6 +54,7 @@
       <change afterPath="$PROJECT_DIR$/allure-results/c84d7400-db1a-4a2d-bad9-98dbe562524b-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/cc31f75b-40e2-4338-8fb1-8b5390ae1383-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/d106ea97-8100-4412-a722-c0a7a4cfa060-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d4c2a9da-25f7-4121-b58b-425643df92fc-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/d6119d08-4970-41d2-8a6a-889c43eebf16-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/d851319a-91c2-4df6-bcac-bf70d65dbcdd-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/dac46663-7e98-41df-bf48-58b26f299bf9-result.json" afterDir="false" />
@@ -56,7 +63,6 @@
       <change afterPath="$PROJECT_DIR$/allure-results/e62b30d5-e47b-4ae8-a8ad-f7d90840fefb-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/f5d487eb-8dd8-4283-b009-a18816cde9da-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/common/LoginPageTestAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/LoginPageTestAndroid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseTestAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseTestAndroid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710746016440</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changing the IP of the server connection">
+      <created>1710748456525</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710748456525</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changing the IP of the server connection">
+      <created>1710749334931</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710749334931</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +281,7 @@
     <MESSAGE value="adjustment for Jenkins" />
     <MESSAGE value="port of the server on Jenkins fix." />
     <MESSAGE value="sessionNotCreated exception handling and debugging" />
-    <option name="LAST_COMMIT_MESSAGE" value="sessionNotCreated exception handling and debugging" />
+    <MESSAGE value="changing the IP of the server connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing the IP of the server connection" />
   </component>
 </project>
