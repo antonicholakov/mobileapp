@@ -35,7 +35,7 @@ public class BaseTestAndroid {
                     .setAppActivity("com.easysecure.MainActivity")
                     .setNoReset(true);
 
-            driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
+            driver = new AndroidDriver(new URL("http://127.0.0.1:8200"), options);
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             // Add a wait for the app to load

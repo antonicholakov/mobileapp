@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="">
+    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="adjustment for Jenkins">
       <change afterPath="$PROJECT_DIR$/allure-results/001d8b40-bfe9-4279-a50d-410e5ab2f67b-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/0045545d-6a0f-49e9-b01b-992da6c85ba0-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/023e7696-0e19-4421-985b-be8ee109d12f-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/042cc9d6-fbd4-4394-a880-d00ebfa732aa-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/08dbe9e8-1567-46ae-b4cc-e0021f5879c6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0b2ba3a8-7d68-437a-b726-9c136f09510b-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/0c15c298-8b24-4eb5-a263-acf6edf3b673-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/0c20a3a0-ea44-46ae-ba0f-1af17b95943e-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/0e013867-aa3a-455a-a110-a15992068462-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/11619bfe-4196-4fd3-ba58-4d110ad64dbb-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/1a559eb6-c8ba-456c-b4b9-351dc3d54feb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1b9c1d0f-15f9-4957-aa0b-085ac2bc03c8-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/1d5fa420-eb55-4287-bbdb-faf212d50d76-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/31a2b653-6e84-4414-8dfb-e55cb7413783-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/398c3cc5-2d53-45d6-b760-266349c9386f-container.json" afterDir="false" />
@@ -25,6 +27,8 @@
       <change afterPath="$PROJECT_DIR$/allure-results/71aa607c-b6f2-4323-bef6-b1bf3556521e-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/753e421d-6030-483c-a3bf-482c4a4bc1fd-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/79789fb3-0e51-4b18-975b-ced93ef416ae-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7cada1da-0590-4e75-816f-07d8f7c70bc0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/85093cdb-2e66-40b0-a4f7-a814527f5b29-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/8ae89047-54a6-44f0-8415-64c06fa52fc2-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/960d489d-953a-47ed-b5a1-82329d9fb5af-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/9b3b8256-f87b-49a3-8c56-77ad7d1f582b-result.json" afterDir="false" />
@@ -37,12 +41,15 @@
       <change afterPath="$PROJECT_DIR$/allure-results/aff5c5a8-5393-4db5-b3fc-f202d3a5ccb2-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/b048908f-c0c4-4b72-8ab0-16148c622220-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/ba324387-80ab-4802-bd12-4c32a5f8dc0f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bbd2f295-971f-43d5-84ee-56263985e0db-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/bd665e4d-6eb7-46e1-83cf-b22e86f74fd7-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/c0440486-ae12-42d0-a0bb-54cd60863242-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/c6f56639-7c46-4f31-b2f7-fdf93cae2ceb-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/c84d7400-db1a-4a2d-bad9-98dbe562524b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cc31f75b-40e2-4338-8fb1-8b5390ae1383-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/d106ea97-8100-4412-a722-c0a7a4cfa060-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/d6119d08-4970-41d2-8a6a-889c43eebf16-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d851319a-91c2-4df6-bcac-bf70d65dbcdd-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/dac46663-7e98-41df-bf48-58b26f299bf9-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/dfaffa9d-b26e-4026-bec6-64e918315e62-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/e1f80d59-47bf-468d-9d50-3372d8fc5236-container.json" afterDir="false" />
@@ -212,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710517360200</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adjustment for Jenkins">
+      <created>1710720453528</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710720453528</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +243,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="building mobile app core for automation" />
-    <option name="LAST_COMMIT_MESSAGE" value="building mobile app core for automation" />
+    <MESSAGE value="adjustment for Jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjustment for Jenkins" />
   </component>
 </project>
