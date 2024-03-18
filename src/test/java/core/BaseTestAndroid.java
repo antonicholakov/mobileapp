@@ -18,45 +18,38 @@ import java.time.Duration;
 public class BaseTestAndroid {
 
     protected App app;
-    private AppiumDriver driver;
+    private static AppiumDriver driver; // Make driver static to ensure it's shared across test instances
     protected static final Logger LOGGER = LoggerFactory.getLogger(BaseTestAndroid.class);
 
     public AppiumDriver getDriver() {
         return this.driver;
     }
 
-
     @BeforeAll
     public void setup() throws MalformedURLException {
         if (driver == null) {
-
-            //capabilities
-
+            // Initialize driver only if it's not already initialized
             UiAutomator2Options options = new UiAutomator2Options();
-            options.setDeviceName("emulator-5554")
+            options.setDeviceName("Pixel_7_Pro_API_34:5554")
                     .setAppPackage("com.easysecure")
                     .setAppActivity("com.easysecure.MainActivity")
                     .setNoReset(true);
 
-            // Initialize driver
             driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
-
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             // Add a wait for the app to load
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25)); // Adjust the wait time as needed
             wait.until(ExpectedConditions.presenceOfElementLocated(AppiumBy.accessibilityId("Login to Continue")));
 
-            // Initialize app with the driver
             app = new App(driver, wait);
-            }
         }
-
+    }
 
     @AfterAll
     public void tearDown() {
-        // Quit driver
-        if (driver != null) {
+        // Do not quit driver if it's already initialized
+        if (driver != null && app != null) {
             driver.quit();
         }
     }
