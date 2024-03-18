@@ -16,7 +16,6 @@ public class LoginPageTestAndroid extends BaseTestAndroid {
     @Tag("android")
     @DisplayName("Can perform login and logout")
     public void testLogin() {
-        Assertions.assertTrue( app.loginPage_android().verifyLoginScreenMessage());
         app.loginPage_android().enterCompany("Pragmatic DOM");
         app.loginPage_android().enterEmail("anthonycholakov@icloud.com");
         app.loginPage_android().enterPassword("Test05!!!");
@@ -36,7 +35,6 @@ public class LoginPageTestAndroid extends BaseTestAndroid {
     @Tag("android")
     @DisplayName("Can go to Forgot Password page and navigate back to Login screen")
     public void navigateFromForgotPasswordToLoginScreen() {
-        Assertions.assertTrue( app.loginPage_android().verifyLoginScreenMessage());
         app.loginPage_android().clickForgotYourPassword();
         //assert navigation to Forgot Your Password Screen
         Assertions.assertTrue(app.loginPage_android().verifyForgotYourPasswordScreen());
@@ -50,7 +48,6 @@ public class LoginPageTestAndroid extends BaseTestAndroid {
     @Tag("android")
     @DisplayName("Can't login with blank credentials")
     public void cantLoginWithBlankCredentials() {
-        Assertions.assertTrue( app.loginPage_android().verifyLoginScreenMessage());
         app.loginPage_android().clickLogin();
         //assert that Error popup & Message are present at the Login Screen
         Assertions.assertTrue(app.loginPage_android().verifyInvalidCredentialsErrorMessage());

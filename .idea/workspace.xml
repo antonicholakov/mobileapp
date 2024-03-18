@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="adjustment for Jenkins">
+    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="sessionNotCreated exception handling and debugging">
       <change afterPath="$PROJECT_DIR$/allure-results/001d8b40-bfe9-4279-a50d-410e5ab2f67b-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/0045545d-6a0f-49e9-b01b-992da6c85ba0-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/023e7696-0e19-4421-985b-be8ee109d12f-result.json" afterDir="false" />
@@ -56,6 +56,7 @@
       <change afterPath="$PROJECT_DIR$/allure-results/e62b30d5-e47b-4ae8-a8ad-f7d90840fefb-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/f5d487eb-8dd8-4283-b009-a18816cde9da-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/common/LoginPageTestAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/LoginPageTestAndroid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseTestAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseTestAndroid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710720453528</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="port of the server on Jenkins fix.">
+      <created>1710722572182</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710722572182</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sessionNotCreated exception handling and debugging">
+      <created>1710746016440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710746016440</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +259,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="building mobile app core for automation" />
     <MESSAGE value="adjustment for Jenkins" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjustment for Jenkins" />
+    <MESSAGE value="port of the server on Jenkins fix." />
+    <MESSAGE value="sessionNotCreated exception handling and debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="sessionNotCreated exception handling and debugging" />
   </component>
 </project>

@@ -37,7 +37,7 @@ public class BaseTestAndroid {
                     .setNoReset(true);
 
             try {
-                driver = new AndroidDriver(new URL("http://127.0.0.1:8200"), options);
+                driver = new AndroidDriver(new URL("http://172.16.1.217:4723"), options);
                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
                 // Add a wait for the app to load
