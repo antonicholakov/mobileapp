@@ -6,6 +6,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.openqa.selenium.SessionNotCreatedException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
@@ -26,7 +27,7 @@ public class BaseTestAndroid {
     }
 
     @BeforeAll
-    public void setup() throws MalformedURLException {
+    public void setup() {
         if (driver == null) {
             // Initialize driver only if it's not already initialized
             UiAutomator2Options options = new UiAutomator2Options();
@@ -35,14 +36,20 @@ public class BaseTestAndroid {
                     .setAppActivity("com.easysecure.MainActivity")
                     .setNoReset(true);
 
-            driver = new AndroidDriver(new URL("http://127.0.0.1:8200"), options);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+            try {
+                driver = new AndroidDriver(new URL("http://127.0.0.1:8200"), options);
+                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
-            // Add a wait for the app to load
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25)); // Adjust the wait time as needed
-            wait.until(ExpectedConditions.presenceOfElementLocated(AppiumBy.accessibilityId("Login to Continue")));
+                // Add a wait for the app to load
+                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25)); // Adjust the wait time as needed
+                wait.until(ExpectedConditions.presenceOfElementLocated(AppiumBy.accessibilityId("Login to Continue")));
 
-            app = new App(driver, wait);
+                app = new App(driver, wait);
+            } catch (MalformedURLException e) {
+                LOGGER.error("Invalid Appium server URL: {}", e.getMessage());
+            } catch (SessionNotCreatedException e) {
+                LOGGER.error("Failed to create Appium session: {}", e.getMessage());
+            }
         }
     }
 
