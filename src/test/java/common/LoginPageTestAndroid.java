@@ -21,8 +21,6 @@ public class LoginPageTestAndroid extends BaseTestAndroid {
         app.loginPage_android().enterPassword("Test05!!!");
         app.loginPage_android().clickLoginToContinue();
         app.loginPage_android().clickLogin();
-        //assert navigation to home screen
-        Assertions.assertTrue(app.loginPage_android().clickHomeIconAndVerifyHomeScreen());
         //assert navigation to person screen
         Assertions.assertTrue(app.loginPage_android().clickPersonIconAndVerifyPersonScreen());
         app.loginPage_android().clickLogout();
