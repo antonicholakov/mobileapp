@@ -2,22 +2,13 @@ package core;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.options.XCUITestOptions;
-import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.api.extension.ExtensionContext;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.File;
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class BaseTestiOS {

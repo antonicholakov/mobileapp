@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="adjust the locator for the new emulated device" />
+    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="correction for one failing testLogin()">
+      <change afterPath="$PROJECT_DIR$/allure-results/0fec878f-a5da-4e35-a952-0d4f2b680886-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/19296703-b0dc-47ad-aea2-4ebc55ffa9df-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/31e7f866-d73b-4d0d-8d8e-d0df1de24047-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4103cf99-e9db-4f77-9207-703208cd88d8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4a25c5dc-dfea-40be-86a1-2dbe865bf677-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4da5e1cd-a218-4423-af57-4060d43dbbb4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6792cad5-0b05-4275-9fbd-da4dd76c54cc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6da18175-ad4d-4b2d-af27-e67b18635637-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7116bbb3-6fb5-4465-9834-a2bc096f883c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/72472d81-8a6d-46c0-844d-37eb3580e688-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7d49bc2c-44f1-444a-b963-1cf96566a341-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8cc36cd4-b382-4d68-a09c-48628c71dd39-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9c9e73e0-bb1f-4509-ac9b-b469fec44c92-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9f7e9fac-af05-4ecf-bc4c-247b711eeb8d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aa2e52b3-e9e7-4bb1-8851-7cae799ae661-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aa8b678d-04e4-43ec-87de-42bcfd2a5cf4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b39cd1f0-6b56-4c83-b16b-c82cc3df925a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b76e8e75-d030-44ea-9757-7242986f580c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bc93e2c0-2bfb-4eb3-8c21-d47bc34035dc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c20fafcf-7206-4f71-8fa7-774523bd37f4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c95b530b-1b86-4648-90ae-248083600de0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cbbf3426-dfd9-4f7d-afe4-d0bc6bda4f9d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f7824e5a-e1f9-40a1-8074-3c8954f21245-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/common/LoginPageTestiOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/LoginPageTestiOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseTestiOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseTestiOS.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +81,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.LoginPageTestAndroid">
+  <component name="RunManager" selected="JUnit.LoginPageTestiOS">
     <configuration name="LoginPageTestAndroid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mobileapp" />
       <extension name="coverage">
@@ -135,9 +162,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginPageTestiOS" />
         <item itemvalue="JUnit.LoginPageTestAndroid" />
         <item itemvalue="JUnit.LoginPageTestAndroid.testLogin" />
-        <item itemvalue="JUnit.LoginPageTestiOS" />
         <item itemvalue="JUnit.LoginPageTestAndroid.cantLoginWithBlankCredentials" />
         <item itemvalue="JUnit.LoginPageTestAndroid.navigateFromForgotPasswordToLoginScreen" />
       </list>
@@ -222,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710759330058</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="correction for one failing testLogin()">
+      <created>1710832906141</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710832906141</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +278,7 @@
     <MESSAGE value="sessionNotCreated exception handling and debugging" />
     <MESSAGE value="changing the IP of the server connection" />
     <MESSAGE value="adjust the locator for the new emulated device" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust the locator for the new emulated device" />
+    <MESSAGE value="correction for one failing testLogin()" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction for one failing testLogin()" />
   </component>
 </project>
