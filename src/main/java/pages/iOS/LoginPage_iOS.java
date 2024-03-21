@@ -89,7 +89,7 @@ public class LoginPage_iOS extends BasePageiOS {
 
         public void clickPersonIcon() {
                 LOGGER.info("Pressing Person icon");
-                personIcon.click();
+                wait.until(ExpectedConditions.visibilityOf(personIcon)).click();
         }
 
         public boolean verifyPersonScreen() {

@@ -79,7 +79,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.LoginPageTestiOS">
+  <component name="RunManager" selected="JUnit.LoginPageTestiOS.testLogin">
     <configuration name="LoginPageTestAndroid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mobileapp" />
       <extension name="coverage">
@@ -106,22 +106,6 @@
       <option name="PACKAGE_NAME" value="common" />
       <option name="MAIN_CLASS_NAME" value="common.LoginPageTestAndroid" />
       <option name="METHOD_NAME" value="cantLoginWithBlankCredentials" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTestAndroid.navigateFromForgotPasswordToLoginScreen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mobileapp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="common" />
-      <option name="MAIN_CLASS_NAME" value="common.LoginPageTestAndroid" />
-      <option name="METHOD_NAME" value="navigateFromForgotPasswordToLoginScreen" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,13 +142,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginPageTestiOS.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mobileapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="common" />
+      <option name="MAIN_CLASS_NAME" value="common.LoginPageTestiOS" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginPageTestiOS.testLogin" />
         <item itemvalue="JUnit.LoginPageTestiOS" />
         <item itemvalue="JUnit.LoginPageTestAndroid" />
         <item itemvalue="JUnit.LoginPageTestAndroid.testLogin" />
         <item itemvalue="JUnit.LoginPageTestAndroid.cantLoginWithBlankCredentials" />
-        <item itemvalue="JUnit.LoginPageTestAndroid.navigateFromForgotPasswordToLoginScreen" />
       </list>
     </recent_temporary>
   </component>
