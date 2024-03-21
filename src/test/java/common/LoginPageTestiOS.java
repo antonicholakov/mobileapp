@@ -20,7 +20,6 @@ public class LoginPageTestiOS extends BaseTestiOS {
         app.loginPage_iOS().enterEmail("anthonycholakov@icloud.com");
         app.loginPage_iOS().enterPassword("Test05!!!");
         app.loginPage_iOS().clickLogin();
-        app.loginPage_iOS().clickHomeIcon();
         app.loginPage_iOS().clickPersonIcon();
         //assert navigation to person screen
         Assertions.assertTrue(app.loginPage_iOS().verifyPersonScreen());

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="correction for one failing testLogin()">
+    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="correction for one failing testLogin() ios">
       <change afterPath="$PROJECT_DIR$/allure-results/0fec878f-a5da-4e35-a952-0d4f2b680886-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/19296703-b0dc-47ad-aea2-4ebc55ffa9df-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/31e7f866-d73b-4d0d-8d8e-d0df1de24047-container.json" afterDir="false" />
@@ -28,9 +28,7 @@
       <change afterPath="$PROJECT_DIR$/allure-results/c95b530b-1b86-4648-90ae-248083600de0-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/cbbf3426-dfd9-4f7d-afe4-d0bc6bda4f9d-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/f7824e5a-e1f9-40a1-8074-3c8954f21245-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/common/LoginPageTestiOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/LoginPageTestiOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseTestiOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseTestiOS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710832906141</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="correction for one failing testLogin() ios">
+      <created>1711053580301</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711053580301</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +284,7 @@
     <MESSAGE value="changing the IP of the server connection" />
     <MESSAGE value="adjust the locator for the new emulated device" />
     <MESSAGE value="correction for one failing testLogin()" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction for one failing testLogin()" />
+    <MESSAGE value="correction for one failing testLogin() ios" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction for one failing testLogin() ios" />
   </component>
 </project>
