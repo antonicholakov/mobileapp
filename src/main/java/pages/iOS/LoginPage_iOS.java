@@ -11,8 +11,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import util.BasePageiOS;
 
-import java.time.Duration;
-
 public class LoginPage_iOS extends BasePageiOS {
         private WebDriverWait wait;
 
