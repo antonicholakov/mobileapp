@@ -32,7 +32,6 @@ public class BaseTestiOS {
             options.setDeviceName("iPhone 15")
                     .setPlatformVersion("17.0")
                     .setBundleId("com.easysecure")
-                    .useNewWDA()
                     .setNoReset(true);
 
             // Initialize driver
