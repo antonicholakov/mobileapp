@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="added a wait for a failing test">
-      <change afterPath="$PROJECT_DIR$/allure-results/06fee696-7f50-4009-a1c8-4346feb07bed-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1d8db87e-378d-4945-8655-5092bbd997af-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2c15f4d6-788f-4b52-a5eb-fa7c9891834a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4605dac6-097d-497c-a378-1533a3574406-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/544b3555-875a-4a36-b0c0-cba9f0f4ac4a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/575d7677-3f3e-49de-be67-b3860d304162-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/59b6c845-7267-4224-ad2f-0568ad6fd228-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5ae395b8-1d48-42d3-bbc0-2ca7bd26fdb7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5de39d66-6cb8-4aff-87a4-1a21c4602a0c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5f77a9a1-8817-4ee3-8b32-7d27057b8d95-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5f92d1f9-a98c-43b0-a3b9-4101de599d1f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/702dea55-27e4-44bb-8aa1-6f07836573f2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/82b0c581-15c9-4c69-8fdd-bc700cc8dd48-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a1186c23-9385-4a2f-bc3f-f36797dc1874-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a631bdc3-854f-4a19-9efa-097143dd0f54-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c0223c09-abdc-4d97-b82c-3ae8317b3684-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e146d47d-db73-4456-9eb8-28f2ba70b761-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/iOS/LoginPage_iOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/iOS/LoginPage_iOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseTestiOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseTestiOS.java" afterDir="false" />
-    </list>
+    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="issue with WebDriverAgent fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -271,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711054287166</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="issue with WebDriverAgent fix">
+      <created>1711375661229</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711375661229</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,6 +282,7 @@
     <MESSAGE value="correction for one failing testLogin()" />
     <MESSAGE value="correction for one failing testLogin() ios" />
     <MESSAGE value="added a wait for a failing test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a wait for a failing test" />
+    <MESSAGE value="issue with WebDriverAgent fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="issue with WebDriverAgent fix" />
   </component>
 </project>

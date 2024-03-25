@@ -32,7 +32,7 @@ public class BaseTestiOS {
             options.setDeviceName("iPhone 15")
                     .setPlatformVersion("17.0")
                     .setBundleId("com.easysecure")
-                    .setWdaEventloopIdleDelay(Duration.ofSeconds(3))
+                    .setWdaEventloopIdleDelay(Duration.ofSeconds(1))
                     .setNoReset(true);
 
             // Initialize driver
