@@ -1,6 +1,7 @@
 package core;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.options.XCUITestOptions;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -26,8 +27,6 @@ public class BaseTestiOS {
     public void setup() throws MalformedURLException {
         if (driver == null) {
 
-            //capabilities
-
             XCUITestOptions options = new XCUITestOptions();
             options.setDeviceName("iPhone 15")
                     .setPlatformVersion("17.0")
@@ -35,7 +34,7 @@ public class BaseTestiOS {
                     .setNoReset(true);
 
             // Initialize driver
-            driver = new AppiumDriver(new URL("http://127.0.0.1:4723"), options);
+            driver = new AppiumDriver(new URL("http://localhost:4723"), options);
 
             // Add an implicit wait
             wait = new WebDriverWait(driver, Duration.ofSeconds(15)); // Adjust the wait time as needed

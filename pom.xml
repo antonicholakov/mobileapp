@@ -8,7 +8,6 @@
         <allure.version>2.13.2</allure.version>
         <junit.version>5.7.1</junit.version>
         <selenium.version>4.18.1</selenium.version>
-        <parallel.enabled>false</parallel.enabled>
         <webdriver.manager.version>5.0.3</webdriver.manager.version>
         <mailslurp.version>15.0.3</mailslurp.version>
         <playwright.version>1.20.1</playwright.version>
@@ -31,12 +30,18 @@
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>9.1.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.seleniumhq.selenium</groupId>
+                    <artifactId>selenium-remote-driver</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.17.0</version>
+            <artifactId>selenium-remote-driver</artifactId>
+            <version>4.18.1</version>
         </dependency>
 
         <dependency>
