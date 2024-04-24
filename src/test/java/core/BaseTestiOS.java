@@ -30,6 +30,8 @@ public class BaseTestiOS {
             XCUITestOptions options = new XCUITestOptions();
             options.setDeviceName("iPhone 15")
                     .setPlatformVersion("17.0")
+                    .setUseNewWDA(false)
+                    .setUsePrebuiltWda(true)
                     .setBundleId("com.easysecure")
                     .setNoReset(true);
 
