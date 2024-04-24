@@ -4,6 +4,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.options.XCUITestOptions;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.NoSuchSessionException;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,16 +31,19 @@ public class BaseTestiOS {
             XCUITestOptions options = new XCUITestOptions();
             options.setDeviceName("iPhone 15")
                     .setPlatformVersion("17.0")
-                    .setUseNewWDA(false)
-                    .setUsePrebuiltWda(true)
+                    .setCommandTimeouts(Duration.ofSeconds(240))
+                    .setWdaLaunchTimeout(Duration.ofSeconds(240))
                     .setBundleId("com.easysecure")
                     .setNoReset(true);
-
-            // Initialize driver
-            driver = new AppiumDriver(new URL("http://localhost:4723"), options);
+            try {
+                driver = new IOSDriver(new URL("http://localhost:4723"), options);
+            } catch (NoSuchSessionException e) {
+                options.useNewWDA();
+                driver = new IOSDriver(new URL("http://localhost:4723"), options);
+            }
 
             // Add an implicit wait
-            wait = new WebDriverWait(driver, Duration.ofSeconds(15)); // Adjust the wait time as needed
+            wait = new WebDriverWait(driver, Duration.ofSeconds(24)); // Adjust the wait time as needed
 
             // Initialize app with the driver
             app = new App(driver, wait);

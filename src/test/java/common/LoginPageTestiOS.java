@@ -15,7 +15,8 @@ public class LoginPageTestiOS extends BaseTestiOS {
     @Tag("login")
     @Tag("ios")
     @DisplayName("Can perform login and logout")
-    public void testLogin() {
+    public void testLogin() throws InterruptedException {
+        Thread.sleep(20000);
         app.loginPage_iOS().enterCompany("Pragmatic DOM");
         app.loginPage_iOS().enterEmail("anthonycholakov@icloud.com");
         app.loginPage_iOS().enterPassword("Test05!!!");
