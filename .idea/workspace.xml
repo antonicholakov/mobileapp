@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="fix for wda" />
+    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="change the android emulator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,11 +25,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -326,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713966763091</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="change the android emulator">
+      <created>1715275300967</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1715275300967</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,6 +361,7 @@
     <MESSAGE value="issue with WebDriverAgent fix" />
     <MESSAGE value="transitive dependency fix for Selenium 4.19" />
     <MESSAGE value="fix for wda" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix for wda" />
+    <MESSAGE value="change the android emulator" />
+    <option name="LAST_COMMIT_MESSAGE" value="change the android emulator" />
   </component>
 </project>
