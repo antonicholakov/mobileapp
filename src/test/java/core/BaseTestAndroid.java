@@ -31,7 +31,7 @@ public class BaseTestAndroid {
         if (driver == null) {
             // Initialize driver only if it's not already initialized
             UiAutomator2Options options = new UiAutomator2Options();
-            options.setDeviceName("Pixel_7_Pro_API_34:5554")
+            options.setDeviceName("Pixel_8_API_34-ext8:5554")
                     .setAppPackage("com.easysecure")
                     .setAppActivity("com.easysecure.MainActivity")
                     .setNoReset(true);
