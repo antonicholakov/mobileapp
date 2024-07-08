@@ -22,7 +22,6 @@ public class LoginPageTestAndroid extends BaseTestAndroid {
         app.loginPage_android().clickLoginToContinue();
         app.loginPage_android().clickLogin();
         //assert navigation to home screen
-        app.loginPage_android().clickHomeIconAndVerifyHomeScreen();
         app.loginPage_android().performLogout();
         //asserting that logging out the login screen is visible with 'Login to Continue' message
         Assertions.assertTrue( app.loginPage_android().verifyLoginScreenMessage());

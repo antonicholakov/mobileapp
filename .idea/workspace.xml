@@ -23,6 +23,7 @@
       <change afterPath="$PROJECT_DIR$/allure-results/1ad8f802-37b3-4909-a8fd-4eca9a92a11d-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/1bfb7985-cd02-4cfb-9394-d6098671be66-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/1d8b54d0-3a44-429e-a8ff-1bfeb3fb65fe-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1d956293-ef2d-40c9-8bcb-213f172ecef8-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/1dfcf684-9f9c-4a00-9fc4-0056fec236df-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/1e63a985-5c42-4b4a-b6c6-45859fef90bf-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/20417068-0d91-45fb-b866-015ae83ab078-container.json" afterDir="false" />
@@ -65,6 +66,7 @@
       <change afterPath="$PROJECT_DIR$/allure-results/682fd88f-762c-4bfc-bdb3-ae6ea43a3d52-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/682fe0d2-1fad-4728-a18c-e2b8a5503fe7-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/69462947-816b-46f8-9c4e-77fea64e0eb0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6e0fad88-e7b2-4fe0-9c75-e994e8a6e9d6-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/6e90474b-a39e-4a16-9614-901c4fa26bf6-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/6f4dec2d-305d-4c93-9d79-ee83ef8f4c25-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/6f9481c3-08c4-41c2-82fd-530196ff773e-container.json" afterDir="false" />
@@ -145,6 +147,7 @@
       <change afterPath="$PROJECT_DIR$/allure-results/ea28a130-141f-4fd0-929a-a246fe742088-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/eb718592-1906-4fa6-845a-73fef8ffe5ac-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/ecf6a8db-4b1b-495c-b0b7-f00033a6a321-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ed7e2038-0b57-4c20-9dd6-eeaac25b2cdf-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/f2ce2d61-c2ed-4c47-8201-e894f8aed52e-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/f395ac52-2cbc-467c-8be9-44d9ce1e61f4-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/f419a2c5-53dd-4c48-8470-3df524af6caf-result.json" afterDir="false" />
@@ -157,10 +160,7 @@
       <change afterPath="$PROJECT_DIR$/allure-results/fd44b8f7-5c6e-45c1-8066-25e304246788-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/fd67972d-4a5c-4fb2-838b-a52491133cd3-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/ff9eeeee-cad8-4919-a5bc-d72a1819cac2-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Android/LoginPage_Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Android/LoginPage_Android.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/common/LoginPageTestAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/LoginPageTestAndroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseTestiOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseTestiOS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -497,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715275731012</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="change the android emulator">
+      <created>1720436278874</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1720436278874</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
