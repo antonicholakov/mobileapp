@@ -11,6 +11,8 @@ import org.slf4j.LoggerFactory;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class BaseTestiOS {
@@ -29,8 +31,9 @@ public class BaseTestiOS {
         if (driver == null) {
 
             XCUITestOptions options = new XCUITestOptions();
-            options.setDeviceName("iPhone 15")
-                    .setPlatformVersion("17.0")
+            options.setDeviceName("iPhone")
+                    .setPlatformVersion("16.7.8")
+                    .setUdid("a26b25494e63982b6fcea7f198ac035d2d3a2c22")
                     .setCommandTimeouts(Duration.ofSeconds(240))
                     .setWdaLaunchTimeout(Duration.ofSeconds(240))
                     .setBundleId("com.easysecure")
@@ -55,6 +58,16 @@ public class BaseTestiOS {
     public void tearDown() {
         // Quit driver
         if (driver != null) {
+            try {
+                Map<String, String> params = new HashMap<>();
+                params.put("bundleId", "com.easysecure");
+                driver.executeScript("mobile: terminateApp", params);
+                LOGGER.info("App with bundle ID com.easysecure terminated successfully.");
+            } catch (Exception e) {
+                LOGGER.error("Failed to terminate app with bundle ID com.easysecure: " + e.getMessage());
+            }
+
+            // Quit driver
             driver.quit();
         }
     }

@@ -39,13 +39,13 @@ public class LoginPage_Android extends BasePageAndroid {
     @AndroidFindBy(accessibility = "Login to Continue")
     private WebElement loginToContinue;
 
-    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.ImageView[2]")
+    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.ImageView[2]")
     private WebElement homeIcon;
 
     @AndroidFindBy(accessibility = "Home")
     private WebElement home;
 
-    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.ImageView[2]")
+    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.ImageView[2]")
     private WebElement personIcon;
 
     @AndroidFindBy(accessibility = "Log out")
@@ -102,11 +102,33 @@ public class LoginPage_Android extends BasePageAndroid {
         wait.until(ExpectedConditions.visibilityOf(homeIcon)).click();
         return home.isDisplayed();
     }
+    public void performLogout() throws InterruptedException {
+        if (!isLogoutButtonDisplayed()) {
+            LOGGER.info("Logout button not displayed. Clicking Person icon to attempt logout.");
+            clickPersonIcon();
+        }
 
-    public boolean clickPersonIconAndVerifyPersonScreen() {
+        if (isLogoutButtonDisplayed()) {
+            clickLogout();
+        } else {
+            LOGGER.warn("Logout button is still not displayed after attempting to click Person icon.");
+        }
+    }
+
+    public boolean isLogoutButtonDisplayed() {
+        try {
+            return logout.isDisplayed();
+        } catch (org.openqa.selenium.NoSuchElementException e) {
+            return false;
+        }
+    }
+
+
+    public void clickPersonIcon() throws InterruptedException {
         LOGGER.info("Pressing Person icon");
-        wait.until(ExpectedConditions.visibilityOf(personIcon)).click();
-        return logout.isDisplayed();
+        wait.until(ExpectedConditions.visibilityOf(personIcon));
+        Thread.sleep(6000);
+        personIcon.click();
     }
 
     public void clickLogout() {

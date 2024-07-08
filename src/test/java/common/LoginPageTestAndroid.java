@@ -15,15 +15,15 @@ public class LoginPageTestAndroid extends BaseTestAndroid {
     @Tag("login")
     @Tag("android")
     @DisplayName("Can perform login and logout")
-    public void testLogin() {
+    public void testLogin() throws InterruptedException {
         app.loginPage_android().enterCompany("Pragmatic DOM");
         app.loginPage_android().enterEmail("anthonycholakov@icloud.com");
         app.loginPage_android().enterPassword("Test05!!!");
         app.loginPage_android().clickLoginToContinue();
         app.loginPage_android().clickLogin();
-        //assert navigation to person screen
-        Assertions.assertTrue(app.loginPage_android().clickPersonIconAndVerifyPersonScreen());
-        app.loginPage_android().clickLogout();
+        //assert navigation to home screen
+        app.loginPage_android().clickHomeIconAndVerifyHomeScreen();
+        app.loginPage_android().performLogout();
         //asserting that logging out the login screen is visible with 'Login to Continue' message
         Assertions.assertTrue( app.loginPage_android().verifyLoginScreenMessage());
     }
