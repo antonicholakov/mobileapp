@@ -32,8 +32,8 @@ public class BaseTestiOS {
 
             XCUITestOptions options = new XCUITestOptions();
             options.setDeviceName("iPhone 16 Pro Max")
-                    .setPlatformVersion("18.3")
-                    .setUdid("18416862-6AE6-4941-BE3A-CB40693D52E7")
+                    .setPlatformVersion("18.4")
+                    .setUdid("D7807707-DB45-4B7C-83AD-EFBF74CC3585")
                     .setCommandTimeouts(Duration.ofSeconds(240))
                     .setWdaLaunchTimeout(Duration.ofSeconds(240))
                     .setBundleId("com.easysecure")
