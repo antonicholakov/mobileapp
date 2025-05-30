@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="" />
+    <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -379,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743841187023</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="updated iOS simulator support for 18.4">
+      <option name="closed" value="true" />
+      <created>1745430843722</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1745430843722</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,7 +419,8 @@
     <MESSAGE value="fix for wda" />
     <MESSAGE value="change the android emulator" />
     <MESSAGE value="updated iOS simulator support for 18.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated iOS simulator support for 18.3" />
+    <MESSAGE value="updated iOS simulator support for 18.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated iOS simulator support for 18.4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
