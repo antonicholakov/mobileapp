@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="202dff7f-76a3-45dd-bb4e-4b2a5e91d5cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/allure-results/16bda166-6f34-48f5-8f3f-e35fc4e10ad2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4a389904-b045-4c5a-88b2-89df0010d254-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4a6be514-09e9-4124-8428-bb06585c9cc3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/64e93953-434e-4478-83a7-acc88ead631c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/69e46ac7-e2c8-47cb-a649-e19557cd527d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/74155937-c8b1-46f4-b77a-5d781db7a480-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/756148b7-44d1-4ee2-95f4-1fd4c94ce901-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ae5e77a5-03ac-4d1e-affe-6021b9dc81aa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/afd61d74-41bc-4802-962a-bd76074314d0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fd7fb9bb-4ca0-490a-8073-70581d6d5eb8-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +82,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.LoginPageTestAndroid.testLogin">
+  <component name="RunManager" selected="JUnit.LoginPageTestiOS">
     <configuration name="LoginPageTestAndroid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mobileapp" />
       <extension name="coverage">
@@ -151,8 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginPageTestAndroid.testLogin" />
         <item itemvalue="JUnit.LoginPageTestiOS" />
+        <item itemvalue="JUnit.LoginPageTestAndroid.testLogin" />
         <item itemvalue="JUnit.LoginPageTestAndroid" />
         <item itemvalue="JUnit.LoginPageTestiOS.testLogin" />
         <item itemvalue="JUnit.LoginPageTestAndroid.cantLoginWithBlankCredentials" />
@@ -389,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745430843722</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="updated iOS simulator support for 18.4">
+      <option name="closed" value="true" />
+      <created>1748616719977</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1748616719977</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
