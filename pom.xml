@@ -11,37 +11,38 @@
         <webdriver.manager.version>5.0.3</webdriver.manager.version>
         <mailslurp.version>15.0.3</mailslurp.version>
         <playwright.version>1.20.1</playwright.version>
-        <!-- tags executed by default -->
-        <!-- example <tags>sanity, slow</tags> -->
         <tags></tags>
-        <!-- tags excluded by default -->
         <excludeTags></excludeTags>
-        <!-- number of parallel threads 1,2,3,4 -->
         <threads>2</threads>
         <re.run>3</re.run>
-
     </properties>
     <groupId>com.easysecure</groupId>
     <artifactId>mobileapp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
 
+        <!-- Appium Java client without exclusion -->
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>9.1.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.seleniumhq.selenium</groupId>
-                    <artifactId>selenium-remote-driver</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
+        <!-- Selenium dependencies aligned to 4.18.1 -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-remote-driver</artifactId>
-            <version>4.18.1</version>
+            <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>${selenium.version}</version>
         </dependency>
 
         <dependency>
@@ -112,32 +113,26 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <dependencies>
-
                     <dependency>
                         <groupId>org.aspectj</groupId>
                         <artifactId>aspectjweaver</artifactId>
                         <version>1.9.1</version>
                     </dependency>
-
-
                     <dependency>
                         <groupId>org.apache.maven.surefire</groupId>
                         <artifactId>surefire-api</artifactId>
                         <version>3.0.0-M5</version>
                     </dependency>
-
                     <dependency>
                         <groupId>com.squareup.okhttp3</groupId>
                         <artifactId>okhttp</artifactId>
                         <version>4.9.3</version>
                     </dependency>
-
                     <dependency>
                         <groupId>com.squareup.okhttp3</groupId>
                         <artifactId>logging-interceptor</artifactId>
                         <version>3.14.6</version>
                     </dependency>
-
                 </dependencies>
                 <configuration>
                     <rerunFailingTestsCount>${re.run}</rerunFailingTestsCount>
@@ -159,7 +154,6 @@
                             junit.jupiter.execution.parallel.config.fixed.parallelism=${threads}
                         </configurationParameters>
                     </properties>
-
                 </configuration>
             </plugin>
 
@@ -176,7 +170,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
-                <version>3.3.1</version><!-- This is the version to be upgraded -->
+                <version>3.3.1</version>
             </plugin>
 
             <plugin>
@@ -186,5 +180,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
