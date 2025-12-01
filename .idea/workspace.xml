@@ -429,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751531534198</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="updated the application to 1.1.0 and the ios version of the simulator">
+      <option name="closed" value="true" />
+      <created>1753874361807</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1753874361807</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,7 +469,8 @@
     <MESSAGE value="updated iOS simulator support for 18.3" />
     <MESSAGE value="updated iOS simulator support for 18.4" />
     <MESSAGE value="mavne compiler fix for java 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="mavne compiler fix for java 17" />
+    <MESSAGE value="updated the application to 1.1.0 and the ios version of the simulator" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the application to 1.1.0 and the ios version of the simulator" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
